@@ -20,4 +20,5 @@ WORKDIR /workspaces/Portfolio
 RUN npm i --save -E @capacitor/core@latest
 RUN npm i -D -E @capacitor/cli@latest
 RUN npm i --save -E @capacitor/haptics @capacitor/app @capacitor/keyboard @capacitor/status-bar
+RUN npm i -D -E react-scripts
 RUN npm i
